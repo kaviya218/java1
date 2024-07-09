@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Distance
+{
+  public static void main(String[]args){
+    Scanner scanner = new Scanner(System in);
+    double speed = scanner.nextDouble();
+    double time = scanner.nexrDouble();
+    double distance = speed*time;
+    System.out.println(distance);
+    scanner.close();
+}
+}
